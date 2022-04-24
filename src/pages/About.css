@@ -1,0 +1,97 @@
+:root{
+    --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
+}
+.App{
+    animation: appearFromLeft 1s backwards;
+    
+}
+
+
+.App h2{
+    font-size: 36px;
+    z-index: 4;
+}
+
+.app-p{
+    width: 70%;
+    min-width: 380px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 20px;
+    z-index: 4;
+    
+}
+.App h4{
+    right: 30px;
+    position: absolute;
+    color: #828282;
+    z-index: 3;
+    float: right;
+    font-size: 150px;
+   
+    
+    
+}
+
+
+
+
+.skl-txt{
+    width: 100px;
+    font-size: 50px;
+    list-style: none;
+    text-align: center;
+    margin-right: 20px;
+    animation: appearFromLeft 1s backwards;
+}
+
+
+
+.code-skl{
+    display: flex;
+    overflow: scroll;
+}
+/* .code-skl{
+    max-width: 800px;
+    margin-top: 20px;
+    display:flex;
+    padding: 20px 0px;
+   
+    overflow: scroll;
+
+    
+    */
+/* } */
+.code-skl-h2{
+    margin-top: 40px;
+    animation: appearFromLeft 1s backwards;
+}
+
+
+.code-skl li{
+    font-size: 50px;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 4px;
+    color: #828282
+    
+}
+
+.code-skl li:hover{
+    transition: var(--transition);
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #82828217 ;
+    
+  
+}
+
+
+
+

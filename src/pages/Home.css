@@ -1,0 +1,139 @@
+.Title{
+    text-align:left;
+    width:80%;
+
+}
+.Title h1{
+    font-size: 48px;
+    color: #393939;
+    margin-top: 10px;
+    animation: appearFromLeft 1s backwards;
+    animation-delay: 1.5s;
+    
+    
+}
+.Title h4{
+    display:flex;
+    font-size: 16px;
+    color: #3e3e3e;
+    border-right: 2px
+     solid rgba(255,255,255,.75);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 0.5s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+    animation-delay: 1s;
+}
+
+
+.title-resume{
+    width: fot;
+    margin-top: 50px;
+    display:flexbox;
+    animation: ani2 0.2s ease-out 1s forwards;
+    
+}
+ .email-direct {
+     margin-left: 20px;
+ }
+
+.resume-link, .email-direct {
+    display: inline-block;
+    color: #828282;
+    background-color: transparent;
+    font-size:14px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: none;
+    width: 100px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+    padding: 5px 0px; 
+    font-size: 12px;
+    transition: var(--transition);
+    animation: appearFromLeft 1s backwards;
+    animation-delay: 1.5s;
+
+
+}
+
+
+.resume-link:hover, .email-direct:hover{
+    background-color: #82828217;
+    height: 25px;
+}
+
+.title-paragraph{
+    font-size: 16px;
+    line-height: 1.6;
+    min-width: 420px;
+    animation: appearFromLeft 1s backwards;
+    animation-delay: 1.5s;
+}
+
+.hover-underline-animation {
+    font-weight:500;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    color: #000000;
+  }
+  
+  .hover-underline-animation:after {
+    
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ca0000cf;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+@keyframes appearFromLeft{
+    
+    0%{
+        opacity: 0;
+        transform : translateX(-20px)
+    }
+    100%{
+        opacity :1;
+        transform : translateX(0)
+    }
+}
+
+@keyframes appearFromRight{
+    
+    0%{
+        opacity: 0;
+        transform : translateX(20px)
+    }
+    100%{
+        opacity :1;
+        transform : translateX(0)
+    }
+}
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 7.5em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(57, 57, 57, 0.75);}
+  to{border-right-color: transparent;}
+}
