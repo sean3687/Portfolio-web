@@ -18,7 +18,7 @@ function Routes() {
             <Route render={(props)=>(
                 
                 <Layout {...props} >
-                    <AnimatePresence initial = {false} exitBeforeEnter>   
+                    <AnimatePresence initial = {true} exitBeforeEnter>   
                         <Switch >
                             <Route path="/" exact component={Home}/>
                             <Route path="/about" component={About}/>

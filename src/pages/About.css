@@ -10,7 +10,7 @@
 
 .App h2{
     font-size: 36px;
-    z-index: 4;
+    z-index: 2;
 }
 
 .app-p{
@@ -18,7 +18,7 @@
     min-width: 380px;
     font-size: 16px;
     line-height: 1.6;
-    margin-top: 20px;
+    margin-top: 40px;
     z-index: 4;
     
 }
@@ -65,6 +65,7 @@
 /* } */
 .code-skl-h2{
     margin-top: 40px;
+    margin-bottom: 40px;
     animation: appearFromLeft 1s backwards;
 }
 

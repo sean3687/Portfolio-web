@@ -15,7 +15,7 @@ function About(props) {
        
         <IconContext.Provider value={{color: '#fff'}}>
         <div className="App">
-                <h4>About Me</h4>
+                
                 <div className = "container"><h2>About</h2></div>
                 <p className = "app-p">Hello! My name is Sean and I enjoy creating things that live on the internet. My interest in App/web development started back in 2018 when I decided to make "Overwatch workshop code sharing platform" 
                     — turns out having interest on solving problem by software and conduct business.

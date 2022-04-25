@@ -6,7 +6,8 @@
 .Title h1{
     font-size: 48px;
     color: #393939;
-    margin-top: 10px;
+    
+    margin-top: 15px;
     animation: appearFromLeft 1s backwards;
     animation-delay: 1.5s;
     
@@ -71,6 +72,7 @@
     font-size: 16px;
     line-height: 1.6;
     min-width: 420px;
+    margin-top: 40px;
     animation: appearFromLeft 1s backwards;
     animation-delay: 1.5s;
 }
@@ -137,3 +139,17 @@
   from{border-right-color: rgba(57, 57, 57, 0.75);}
   to{border-right-color: transparent;}
 }
+
+@media only screen and (max-width: 500px) {
+    .title-paragraph{
+        
+    }
+    .Title{
+      width: 80%;
+      box-sizing: inherit;
+    }
+    .title-paragraph{
+        width: 100%;
+    }
+   
+  }

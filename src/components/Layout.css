@@ -19,7 +19,7 @@
 
 
 .Page{
-    float: left;
+    align-items: center;
     padding: 100px;
     background-color: #f8f8f8;
     overflow: hidden;
@@ -35,6 +35,18 @@
   
 }
 
+@media only screen and (max-width: 500px) {
+
+  .Page{
+    padding: 20px;
+    padding-top: 40px;
+  }
+  .Sidebar{
+      
+  }
+ 
+}
+
 /* @media only screen and (max-width: 1220px) {
 
     .Page{
@@ -44,17 +56,6 @@
     .Sidebar{
 
     }
- 
-}
-
-@media only screen and (max-width: 1000px) {
-
-  .Page{
-   
-  }
-  .Sidebar{
-      
-  }
  
 }
 
