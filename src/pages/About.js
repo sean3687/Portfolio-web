@@ -1,22 +1,22 @@
 import React,{useState} from 'react';
 import styled from "styled-components";
-import {motion} from 'framer-motion'
+
 import CodeSkillItem from "./CodeSkillItems";
 import { IconContext } from 'react-icons'
-import VisualSkillItem from "./VisualSkillItems";
 import "./About.css"
 
 
 
 function About(props) {
 
+    const [items, setItems] = useState(CodeSkillItem)
     console.log("Dashboard props", props);
     return (
        
         <IconContext.Provider value={{color: '#fff'}}>
         <div className="App">
                 
-                <div className = "container"><h2>About</h2></div>
+                <div><h2>About</h2></div>
                 <p className = "app-p">Hello! My name is Sean and I enjoy creating things that live on the internet. My interest in App/web development started back in 2018 when I decided to make "Overwatch workshop code sharing platform" 
                     — turns out having interest on solving problem by software and conduct business.
                     <br></br>
@@ -33,11 +33,11 @@ function About(props) {
             <h2 className = "code-skl-h2">Skills</h2>
 
             <div className = "code-skl">
-                
+            
                 {CodeSkillItem.map(item =>{
                         return (
                         
-                        <li className={item.cName}> 
+                        <li className={item.cName} > 
                             {item.icon}
                             <p>{item.title}</p>   
                             
@@ -46,7 +46,7 @@ function About(props) {
                         )        
             
                     })}
-
+             
         </div>
         
         </div>

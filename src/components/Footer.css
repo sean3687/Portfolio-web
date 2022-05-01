@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.container p{
+    padding: 10px;
+    display: inline;
+    margin-bottom: 20px;
+    font-size: 10px;
+    color: rgb(72, 72, 72);
+}

@@ -9,6 +9,7 @@
 
 
 .App h2{
+    text-align: left;
     font-size: 36px;
     z-index: 2;
 }

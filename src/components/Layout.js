@@ -1,7 +1,9 @@
 import React from 'react';
 import Routes from "../routes";
 import Sidebar from "./Sidebar";
-import './Layout.css'
+import Footer from "./Footer";
+import './Layout.css';
+
 
 function Layout(props) {
     return (
@@ -16,6 +18,9 @@ function Layout(props) {
                 
                 <div className = "Page">
                     {props.children}
+                </div>
+                <div className = "Footer">
+                    <Footer/>
                 </div>
                 
                 

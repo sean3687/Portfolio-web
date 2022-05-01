@@ -1,26 +1,23 @@
 .sns-div{
-    margin-top: 50px;
-    animation: appearFromLeft 1s backwards;
-    animation-delay: 1.5s;
+    display: flex;
+    gap:10px;
+ 
+ 
 }
 
 .sns-text{
-    background-color: #f8f8f8;
-    width: 50px;
-    height: 50px;
+    
     display:inline;
-    justify-content: flex-start;
     align-items: center;
-    padding: 8px 0px ;
-    margin-left:10px;
     list-style: none;
-    height: 50px;
-    font-size: 22px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
     
     
 }
 
-.sns-text svg :hover{
-    color: black;
+.sns-text a{
     
 }
+

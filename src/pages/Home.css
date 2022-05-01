@@ -9,7 +9,7 @@
     
     margin-top: 15px;
     animation: appearFromLeft 1s backwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.7s;
     
     
 }
@@ -21,9 +21,9 @@
      solid rgba(255,255,255,.75);
     white-space: nowrap;
     overflow: hidden;
-    animation: typewriter 0.5s steps(44) 1s 1 normal both,
+    animation: typewriter 0.5s steps(44) 1 normal both,
              blinkTextCursor 500ms steps(44) infinite normal;
-    animation-delay: 1s;
+    
 }
 
 
@@ -57,7 +57,7 @@
     font-size: 12px;
     transition: var(--transition);
     animation: appearFromLeft 1s backwards;
-    animation-delay: 1.5s;
+    animation-delay: 1.3s;
 
 
 }
@@ -74,7 +74,7 @@
     min-width: 420px;
     margin-top: 40px;
     animation: appearFromLeft 1s backwards;
-    animation-delay: 1.5s;
+    animation-delay: 0.7s;
 }
 
 .hover-underline-animation {

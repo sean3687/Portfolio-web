@@ -9,6 +9,18 @@ const SocialMediaItems = [
         cName: 'sns-text'
     },
     {
+        title: 'LinkedIn',
+        url: 'https://www.linkedin.com/feed/',
+        icon: <AiIcons.AiOutlineLinkedin/>,
+        cName: 'sns-text'
+    },
+    {
+        title: 'Facebook',
+        url: 'https://www.facebook.com/',
+        icon: <AiIcons.AiOutlineFacebook/>,
+        cName: 'sns-text'
+    },
+    {
         title: 'Instagram',
         url: 'https://www.instagram.com/',
         icon: <AiIcons.AiOutlineInstagram/>,
@@ -20,18 +32,6 @@ const SocialMediaItems = [
         icon: <AiIcons.AiOutlineTwitter/>,
         cName: 'sns-text'
     },
-    {
-        title: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/',
-        icon: <AiIcons.AiOutlineLinkedin/>,
-        cName: 'sns-text'
-    },
-    {
-        title: 'Facebook',
-        url: 'https://www.facebook.com/',
-        icon: <AiIcons.AiOutlineFacebook/>,
-        cName: 'sns-text'
-    }
 ];
 
 export default SocialMediaItems;

@@ -20,16 +20,11 @@ const SidebarItems = [
         icon: "03.",
         cName: 'nav-project'
     },
-    {
-        title: 'Blog',
-        route: '/blog',
-        icon: "04.",
-        cName: 'nav-blog'
-    },
+  
     {
         title: 'Contact',
         route: '/contact',
-        icon: "05.",
+        icon: "04.",
         cName: 'nav-contact'
     },
 ];

@@ -4,6 +4,10 @@ import {Link} from "react-router-dom";
 import { FaIcon } from 'react-icons/fa';
 import Logo from "../images/logo.jpg"
 import './Sidebar.css'
+import { useScroll } from "../function/useScroll"
+import { motion } from "framer-motion"
+import { navAnimation } from "../function/animation"
+
 
 
 function Sidebar(props, {defaultActive,}) {
@@ -30,6 +34,9 @@ function Sidebar(props, {defaultActive,}) {
         changeActiveIndex(activeItem);
     }, [location])
 
+    const [isNavOpen, setIsNavOpen] = useState(false);
+    const [element, controls] = useScroll();
+
     return (
         <>
             <nav className = "nav-bar">
@@ -39,7 +46,7 @@ function Sidebar(props, {defaultActive,}) {
                     
                 </div>
     
-                <div className = "nav-div">
+                <motion.div className = "nav-div" ref={element} variants = {navAnimation} transition={ {delay: 0.1}} animate = {controls}>
                     <ul>
                         {SidebarItems.map((item, index)=> {
                             return (
@@ -57,7 +64,7 @@ function Sidebar(props, {defaultActive,}) {
                         )
                         })}
                     </ul>
-                </div>
+                </motion.div>
                 
             </nav>
      
