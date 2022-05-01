@@ -1,6 +1,5 @@
 import React,{useState} from 'react';
 import styled from "styled-components";
-
 import CodeSkillItem from "./CodeSkillItems";
 import { IconContext } from 'react-icons'
 import "./About.css"
@@ -21,11 +20,11 @@ function About(props) {
                     — turns out having interest on solving problem by software and conduct business.
                     <br></br>
                     <br></br>
-                    Fast-forward to today, and I’ve had the privilege of <span className ="hover-underline-animation">working at an web agency</span> and <span className ="hover-underline-animation">a start-up</span>. 
-                    My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients. 
+                    Fast-forward to today, and I’ve had the privilege of <span className ="hover-underline-animation">working at an web agency</span>.
+                    My main focus these days is building accessible, inclusive products and digital experiences. 
                     <br></br>
                     <br></br>
-                    I also recently <span className ="hover-underline-animation">launched a course</span> that covers everything you need to build a web app with the Spotify API using Node & React. 
+                    I also keep learning new features of Android and React library by <span className ="hover-underline-animation">Writing Medium & Tistory blog posts</span>  
                     Here are a few technologies I’ve been working with recently:</p>
                
      
