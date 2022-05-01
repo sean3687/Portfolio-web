@@ -24,8 +24,7 @@ function About(props) {
                     My main focus these days is building accessible, inclusive products and digital experiences. 
                     <br></br>
                     <br></br>
-                    I also keep learning new features of Android and React library by <span className ="hover-underline-animation">Writing Medium & Tistory blog posts</span>  
-                    Here are a few technologies I’ve been working with recently:</p>
+                    I also keep learning new features of Android and React library by <span className ="hover-underline-animation">posting Medium & Tistory blog. </span> Here are a few technologies I’ve been working with recently:</p>
                
      
         
