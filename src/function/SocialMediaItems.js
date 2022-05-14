@@ -10,7 +10,7 @@ const SocialMediaItems = [
     },
     {
         title: 'LinkedIn',
-        url: 'https://www.linkedin.com/feed/',
+        url: 'https://www.linkedin.com/in/yonghyun-jin-0088a1238/',
         icon: <AiIcons.AiOutlineLinkedin/>,
         cName: 'sns-text'
     },
