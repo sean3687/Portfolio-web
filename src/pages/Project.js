@@ -85,7 +85,7 @@ function Project(props) {
                   <li>Heroku</li>
                   <li>Framer</li>
                   <li>Routes</li>
-                  <li>Styled Components</li>
+                  <li>Tailwind CSS</li>
                 </ul>
                 <div className = "href-links">
                   <a className = "href-icon" href="https://github.com/sean3687/Portfolio-web"><FaIcons.FaGithub/></a>

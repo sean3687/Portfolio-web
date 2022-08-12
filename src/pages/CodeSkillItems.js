@@ -2,20 +2,18 @@ import React from 'react'
 import * as SiIcons from "react-icons/si";
 
 const CodeSkillItems = [
-
+    {
+        title: "CloudPractioner",
+        icon : <SiIcons.SiAmazonaws/>,
+        cName:"skl-txt",
+        color: "#786ad1"
+    },
     {
         title:"Kotlin",
         icon: <SiIcons.SiKotlin/>,
         cName:"skl-txt",
         color: "#786ad1"
     },
-    {
-        title: "Android",
-        icon: <SiIcons.SiAndroid/>,
-        cName:"skl-txt",
-        color: "#6cce85"
-    }
-    ,
     {   
         title:"JavaScript",
         icon: <SiIcons.SiJavascript/>,
@@ -28,6 +26,13 @@ const CodeSkillItems = [
         cName:"skl-txt",
         color: "#8ed2ef"
     },
+    {
+        title: "Android",
+        icon: <SiIcons.SiAndroid/>,
+        cName:"skl-txt",
+        color: "#6cce85"
+    }
+    ,
     {
         title:"Html",
         icon: <SiIcons.SiHtml5/>,
