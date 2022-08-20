@@ -15,9 +15,9 @@ const SocialMediaItems = [
         cName: 'sns-text'
     },
     {
-        title: 'Facebook',
-        url: 'https://www.facebook.com/',
-        icon: <AiIcons.AiOutlineFacebook/>,
+        title: 'Medium',
+        url: 'https://medium.com/@yonghyun.jin11',
+        icon: <AiIcons.AiOutlineMedium/>,
         cName: 'sns-text'
     },
     {
