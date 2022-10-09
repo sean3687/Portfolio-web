@@ -2,7 +2,6 @@
     margin: 0;
 }
 .all-item{
-   
     color: #444;
 }
 .project h1{
@@ -106,11 +105,11 @@
     gap:10px
  
 }
-.right li {
-
+.right li{
     border-radius: 5px;
     text-align: right;
-    display: flex;
+    display: inline-block;
+    
     font-weight: 200;
     color: black;
     font-size: 14px;
@@ -126,7 +125,6 @@
     color: black;
     font-size: 14px;
     font-weight: 400;
-    
     transition: transform 0.25s ease-out;
 }
 

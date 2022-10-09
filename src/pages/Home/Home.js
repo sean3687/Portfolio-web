@@ -1,8 +1,8 @@
 import React from 'react';
-import Resume from '../images/Resume.pdf'
+import Resume from '../../Assets/Resume.pdf'
 import "./Home.css"
 import {motion} from 'framer-motion'
-import SocialMedia from "../function/SocialMedia";
+import { Button, DocumentOpenIcon,SendMessageIcon } from 'evergreen-ui'
 
 
 const Home = props => {
@@ -14,8 +14,13 @@ const Home = props => {
             <h1>Sean Jin</h1>
             <p className = "title-paragraph"><span className="hover-underline-animation">I'm a software engineer based in Irvine, CA</span> specializing in building(and ocationally desgining) exceptional website,application, and everything in between</p>
             <p className = "title-resume">
-                <a className ="resume-link" href={Resume} target="_blank">Resume</a>
-                <a className="email-direct" href="mailto:yonghyun.jin11@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
+                <a href = {Resume} style ={{textDecoration : 'none'}}>
+                    <Button className = "resume-link" iconBefore={DocumentOpenIcon} marginRight={0} height={40} >Resume</Button>
+                </a>
+                <a href="mailto:yonghyun.jin11@gmail.com" rel="noopener noreferrer" target="_blank" style ={{textDecoration : 'none'}}>
+                    <Button className="email-direct" iconBefore={SendMessageIcon} padding={20} height={40} >Email</Button>
+                </a>
+                
             </p>
 
         </div>

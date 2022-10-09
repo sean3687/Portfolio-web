@@ -2,11 +2,11 @@ import React, {useEffect, useState} from "react";
 import SidebarItems from "./SidebarItems";
 import {Link} from "react-router-dom";
 import { FaIcon } from 'react-icons/fa';
-import Logo from "../images/logo.jpg"
+import Logo from "../../Assets/logo.jpg"
 import './Sidebar.css'
-import { useScroll } from "../function/useScroll"
+import { useScroll } from "../../function/useScroll"
 import { motion } from "framer-motion"
-import { navAnimation } from "../function/animation"
+import { navAnimation } from "../../function/animation"
 
 
 
@@ -40,11 +40,12 @@ function Sidebar(props, {defaultActive,}) {
     return (
         <>
             <nav className = "nav-bar">
-                <div className = "logoText">
+                
+                <Link className = "logoText" to={'/'}>
                     <img src={Logo}></img>
                     <h2>Sean Jin</h2>
-                    
-                </div>
+                </Link>
+            
     
                 <motion.div className = "nav-div" ref={element} variants = {navAnimation} transition={ {delay: 0.1}} animate = {controls}>
                     <ul>

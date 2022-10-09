@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css'
-import Logo from "../images/logo.jpg"
-import SocialMedia from "../function/SocialMedia";
+import SocialMedia from "../../function/SocialMedia";
 function Footer(){
     return(
         <div className = "container">

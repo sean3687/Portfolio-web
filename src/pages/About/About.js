@@ -32,7 +32,8 @@ function About(props) {
 
             <div className = "code-skl">
             
-                {CodeSkillItem.map(item =>{
+                {CodeSkillItem.map((item) =>{
+                    console.log("skill" + item.title)
                         return (
                         
                         <li className={item.cName} > 

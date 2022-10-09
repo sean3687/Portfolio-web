@@ -1,11 +1,10 @@
 import React from "react";
 import {BrowserRouter, Route, Switch, useLocation} from "react-router-dom";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Project from "./pages/Project";
-import Layout from "./components/Layout";
+import Contact from "./pages/Contact/Contact";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Project from "./pages/Projects/Project";
+import Layout from "./components/Layout/Layout";
 import {motion} from "framer-motion";
 
 function Routes() {

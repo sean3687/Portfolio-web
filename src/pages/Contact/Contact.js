@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import "./Contact.css"
 import {motion} from 'framer-motion'
-import { projectInfoAnimation_right, projectInfoAnimation_left } from "../function/animation";
+import { projectInfoAnimation_right, projectInfoAnimation_left } from "../../function/animation";
 
 function Contact(props) {
     return (

@@ -3,7 +3,7 @@ import * as SiIcons from "react-icons/si";
 
 const CodeSkillItems = [
     {
-        title: "CloudPractioner",
+        title: "Cloud Practitioner",
         icon : <SiIcons.SiAmazonaws/>,
         cName:"skl-txt",
         color: "#786ad1"
