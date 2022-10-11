@@ -16,7 +16,7 @@ function Project() {
     <>
     <IconContext.Provider value= {{color: '#fff'}}>
       <div className ='project'>
-        <motion.h1 variants={projectInfoAnimation_right} ref={element1} animate = {controls1} className = "left_container" transition={{ type: 'spring' }}>Some Things I've Built</motion.h1>
+        <motion.h1 className = "left_container" variants={projectInfoAnimation_right} ref={element1} animate = {controls1} transition={{ type: 'spring' }}>Some Things I've Built</motion.h1>
         <div className='all-item'>
           {ProjectItems.map((item)=>{
             return (

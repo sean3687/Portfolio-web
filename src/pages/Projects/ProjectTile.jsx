@@ -3,6 +3,7 @@ import { projectAnimations, projectInfoAnimation_left, projectInfoAnimation_righ
 import * as FaIcons from "react-icons/fa";
 import React from 'react'
 import { useScroll } from '../../function/useScroll';
+import "./Project.css";
 
 function ProjectTile(props){
     const [element, control] = useScroll()
@@ -27,7 +28,6 @@ function ProjectTile(props){
                     return (<li>{item}</li>)
                   })}
                 </ul>
-                <div className=""></div>
                 <div className = "href-links">
                   <a className = "href-icon" href={project.git}><FaIcons.FaGithub/> </a>
                 </div>
