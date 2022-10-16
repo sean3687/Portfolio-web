@@ -28,9 +28,9 @@ function ProjectTile(props){
                     return (<li>{item}</li>)
                   })}
                 </ul>
-                <div className = "href-links">
-                  <a className = "href-icon" href={project.git}><FaIcons.FaGithub/> </a>
-                </div>
+                <motion.div className = "href-links" >
+                  <a className = "href-icon" whileHover={{scale : 1.2}} href={project.github}><FaIcons.FaGithub/> </a>
+                </motion.div>
             </motion.div>
 
     </div>
