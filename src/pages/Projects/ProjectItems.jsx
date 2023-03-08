@@ -2,6 +2,7 @@ import chronology from "../../Assets/myChronology.png"
 import weather from "../../Assets/myWeather.png";
 import overwatch from "../../Assets/overWatchCode.png";
 import portfolio from "../../Assets/portfolio.png";
+// import Walletgyde from "../../Assets/walletgyde.png";
 
 
 const ProjectItems = [

@@ -16,15 +16,16 @@ function About(props) {
         <div className="App">
                 
                 <div><h2>About</h2></div>
-                <p className = "app-p">Hello! My name is Sean and I enjoy creating things that live on the internet. My interest in App/web development started back in 2018 when I decided to make "Overwatch workshop code sharing platform" 
-                    — turns out having interest on solving problem by software and conduct business.
+                <p className = "app-p">Hello! My name is Sean, and I enjoy creating things that live on the internet. My interest in software development started back in 2018 when I decided to create an "Overwatch workshop code sharing platform." The platform was a success,garnering <a style={{textDecoration: 'none'}} className ="hover-underline-animation" href = "https://play.google.com/store/apps/details?id=com.practice.laon.workshop&hl=ko&gl=US" target="_blank" rel="noopener noreferrer">15,000 downloads</a> 
+                    , and it was then that I realized my passion for solving problems with software and conducting business.
                     <br></br>
                     <br></br>
-                    Fast-forward to today, and I’ve had the privilege of <span className ="hover-underline-animation">working at an web agency</span>.
-                    My main focus these days is building accessible, inclusive products and digital experiences. 
+                    Fast-forward to today, and I’ve had the privilege of <span className ="hover-underline-animation">working at tech Start-ups</span>.
+                    My main focus these days is participating in <span className ="hover-underline-animation">Replit bounties</span> and helping people solve problems with software engineering. 
                     <br></br>
                     <br></br>
-                    I also keep learning new features of Android and React library by <a style={{textDecoration: 'none'}} className ="hover-underline-animation" href = "https://medium.com/@yonghyun.jin11" target="_blank" rel="noopener noreferrer">posting Medium & Tistory blog. </a> Here are a few technologies I’ve been working with recently:</p>
+                  
+                </p>
                
      
         

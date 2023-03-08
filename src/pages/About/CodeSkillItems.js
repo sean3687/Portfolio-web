@@ -1,5 +1,6 @@
 import React from 'react'
 import * as SiIcons from "react-icons/si";
+import { IconName } from "react-icons/si";
 
 const CodeSkillItems = [
     {
@@ -7,6 +8,24 @@ const CodeSkillItems = [
         icon : <SiIcons.SiAmazonaws/>,
         cName:"skl-txt",
         color: "#786ad1"
+    },
+    {
+        title: "MongoDB",
+        icon: <SiIcons.SiMongodb/>,
+        cName:"skl-txt",
+        color:"#786ad1"
+    },
+    {
+        title: "Docker",
+        icon: <SiIcons.SiDocker/>,
+        cName:"skl-txt",
+        color:"#786ad1"
+    },
+    {
+        title: "NodeJS",
+        icon: <SiIcons.SiNodedotjs/>,
+        cName:"skl-txt",
+        color:"#786ad1"
     },
     {
         title:"Kotlin",

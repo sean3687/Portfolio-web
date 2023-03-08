@@ -15,6 +15,12 @@ const SidebarItems = [
         cName: 'nav-about'
     },
     {
+        title: 'Experience',
+        route: '/expe',
+        icon: "03.",
+        cName: 'nav-expe'
+    },
+    {
         title: 'Project',
         route: '/project',
         icon: "03.",
