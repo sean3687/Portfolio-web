@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f1b22dd.css",
+    "main.js": "/static/js/main.69956694.js",
+    "static/media/myChronology.png": "/static/media/myChronology.e904bd04289ddc55788f.png",
+    "static/media/overWatchCode.png": "/static/media/overWatchCode.f89750618dc2f96b07d7.png",
+    "static/media/myWeather.png": "/static/media/myWeather.1956a90ceb3c7d0d76cb.png",
+    "static/media/portfolio.png": "/static/media/portfolio.a5803bc38494efcb112a.png",
+    "static/media/Resume.pdf": "/static/media/Resume.689c1ff87769ef8b1936.pdf",
+    "static/media/agency41.png": "/static/media/agency41.d4bdc2a28845574addd5.png",
+    "static/media/logo.jpg": "/static/media/logo.e1dffef182ecc75dc482.jpg",
+    "static/media/walletgyde_logo.png": "/static/media/walletgyde_logo.f58ff7d660cc8a214a03.png",
+    "index.html": "/index.html",
+    "main.2f1b22dd.css.map": "/static/css/main.2f1b22dd.css.map",
+    "main.69956694.js.map": "/static/js/main.69956694.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f1b22dd.css",
+    "static/js/main.69956694.js"
+  ]
+}

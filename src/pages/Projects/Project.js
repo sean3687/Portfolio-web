@@ -1,9 +1,8 @@
 import React from 'react';
 import "./Project.css";
-import * as FaIcons from "react-icons/fa";
 import { IconContext } from 'react-icons';
 import { motion } from 'framer-motion';
-import { projectAnimations, projectInfoAnimation_left, projectInfoAnimation_right } from "../../function/animation";
+import { projectInfoAnimation_right } from "../../function/animation";
 import { useScroll } from "../../function/useScroll"
 import ProjectItems from "./ProjectItems.jsx"
 import ProjectTiles from "./ProjectTile"

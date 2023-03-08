@@ -1,5 +1,4 @@
 import React,{useState} from 'react';
-import styled from "styled-components";
 import CodeSkillItem from "./CodeSkillItems";
 import { IconContext } from 'react-icons'
 import "./About.css"
@@ -8,8 +7,6 @@ import "./About.css"
 
 function About(props) {
 
-    const [items, setItems] = useState(CodeSkillItem)
-    console.log("Dashboard props", props);
     return (
        
         <IconContext.Provider value={{color: '#fff'}}>

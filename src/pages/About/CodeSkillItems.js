@@ -1,6 +1,5 @@
 import React from 'react'
 import * as SiIcons from "react-icons/si";
-import { IconName } from "react-icons/si";
 
 const CodeSkillItems = [
     {

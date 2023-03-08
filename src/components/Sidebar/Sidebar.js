@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from "react";
 import SidebarItems from "./SidebarItems";
 import {Link} from "react-router-dom";
-import { FaIcon } from 'react-icons/fa';
 import Logo from "../../Assets/logo.jpg"
 import './Sidebar.css'
 import { useScroll } from "../../function/useScroll"
@@ -33,8 +32,7 @@ function Sidebar(props, {defaultActive,}) {
         const activeItem = SidebarItems.findIndex(item=> getPath(item.route) === getPath(location.pathname))
         changeActiveIndex(activeItem);
     }, [location])
-
-    const [isNavOpen, setIsNavOpen] = useState(false);
+    
     const [element, controls] = useScroll();
 
     return (

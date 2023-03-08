@@ -1,5 +1,4 @@
 import React from 'react';
-import Routes from "../../routes";
 import Sidebar from "../Sidebar/Sidebar";
 import Footer from "../Footer/Footer.js"
 import './Layout.css';

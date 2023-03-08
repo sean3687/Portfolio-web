@@ -10,7 +10,6 @@ import {motion} from "framer-motion";
 
 function Routes() {
 
-    const location = useLocation
     return (
         <motion.div initial = "hidden" animate = "show">
         

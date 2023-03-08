@@ -1,9 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import {
-  projectInfoAnimation_right,
-  projectInfoAnimation_left,
-} from "../../function/animation";
 import "./Expe.css";
 import ExpeItems from "./ExperienceItems";
 
